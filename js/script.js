@@ -28,5 +28,7 @@ function solveVolume() {
   const volume = (length * width * height) / 3
 
   //output
-  document.getElementById("volume").innerHTML = `Volume = ${volume.toFixed(2)} cm³`
+  document.getElementById("volume").innerHTML = `Volume = ${volume.toFixed(
+    2
+  )} cm³`
 }
