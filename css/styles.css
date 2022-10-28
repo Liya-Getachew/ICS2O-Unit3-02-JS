@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: rgb(154 211 232);
+  background-color: #CABAD4;
 }
 
 p {
@@ -36,4 +36,13 @@ p {
 img {
   float: right;
   margin-right: 15px;
+}
+
+#formula {
+  float: right;
+  margin-right: 15px;
+}
+
+#volume {
+  padding-top: 15px;
 }

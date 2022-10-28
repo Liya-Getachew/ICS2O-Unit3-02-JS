@@ -7,7 +7,7 @@
 "use strict"
 
 /**
- * Check servie worker.
+ * Check service worker.
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-Unit3-02-JS/sw.js", {
@@ -16,17 +16,17 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function displays an alert.
+ * This function solves volume of a pyramid.
  */
-function solveArea() {
+function solveVolume() {
   //input
-  const baseA = parseInt(document.getElementById("base-a").value)
-  const baseB = parseInt(document.getElementById("base-b").value)
-  const height = parseInt(document.getElementById("height").value)
+  const length = parseFloat(document.getElementById("length-of-pyramid").value)
+  const width = parseFloat(document.getElementById("width-of-pyramid").value)
+  const height = parseFloat(document.getElementById("height-of-pyramid").value)
 
   //process
-  const area = ((baseA + baseB) / 2) * height
+  const volume = (length * width * height) / 3
 
   //output
-  document.getElementById("area").innerHTML = "Area = " + area + " mm²"
+  document.getElementById("volume").innerHTML = `Volume = ${volume.toFixed(2)} cm³`
 }

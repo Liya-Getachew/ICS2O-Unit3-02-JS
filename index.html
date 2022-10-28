@@ -56,21 +56,73 @@
         </div>
       </header>
       <main class="mdl-layout__content">
-        <p></p>
-        <img
-          src="./images/notebook-animation.svg"
-          alt="Computer"
-          width="25%"
-          height="25%"
-        />
+         <p>Enter integers for dimensions here:</p>
+        <div id="formula">
+        <p>Formula:</p>
+        <p>V = (L x W x H) / 3</p>
+        <p>L = length, W = width, H = height</p>
+        </div>
+        <!-- Numeric Textfield -->
+        <form action="#">
+          Length:
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              step="any"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="length-of-pyramid"
+              placeholder="e.g. 3.2"
+              aria-label="Length"
+            />
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          cm
+        </form>
+        <!-- Numeric Textfield -->
+        <form action="#">
+          Width:
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              step="any"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="width-of-pyramid"
+              placeholder="e.g. 3.2"
+              aria-label="Width"
+            />
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          cm
+        </form>
+        <!-- Numeric Textfield -->
+        <form action="#">
+          Height:
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              step="any"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="height-of-pyramid"
+              placeholder="e.g. 3.2"
+              aria-label="Height"
+            />
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          cm
+        </form>
         <!-- Raised button with ripple -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="solveArea()"
+          onclick="solveVolume()"
         >
-          Say "Hello, World!"
+          calculate
         </button>
-        <div id="hello-world"></div>
+        <div id="answer">
+          <div id="volume">Volume =</div>
+        </div>
       </main>
     </div>
   </body>
