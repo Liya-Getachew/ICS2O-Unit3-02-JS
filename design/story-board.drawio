@@ -1,20 +1,62 @@
 <mxfile host="65bd71144e">
     <diagram id="pIaEtrtLPv3HG8r1JEND" name="Page-1">
-        <mxGraphModel dx="690" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="594" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="80" width="400" height="300" as="geometry"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CABAD4;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="440" height="310" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="80" width="400" height="40" as="geometry"/>
+                <mxCell id="3" value="Volume of a Pyramid Calculator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4700AB;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="440" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;left=0;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="110" y="220" width="120" height="20" as="geometry"/>
+                <mxCell id="6" value="Calculate" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;fillColor=#4700AB;fontColor=#ffffff;strokeColor=#050014;" parent="1" vertex="1">
+                    <mxGeometry x="103" y="307" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Calculate" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;" vertex="1" parent="1">
-                    <mxGeometry x="110" y="270" width="100" height="40" as="geometry"/>
+                <mxCell id="7" value="" style="triangle;whiteSpace=wrap;html=1;rotation=30;strokeColor=#F0F0F0;fillColor=#EDEDED;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="230" width="110" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Formula:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="126" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="V = (L x W x H) / 3&lt;br&gt;L = Length,&amp;nbsp; W = Width, H = Height" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="354.5" y="161" width="131" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Enter your dimensions here:&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="140" width="181" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Length:&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="89" y="176.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Width:&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="86" y="215.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Height:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="86" y="254" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffffff;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="149" y="180" width="114" height="23" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="147" y="220" width="114" height="25.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="147" y="260" width="114" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="cm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="180" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="cm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="220" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="cm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="260" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Volume =" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="103" y="350" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="*output goes here*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#7602B0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="350" width="111" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
