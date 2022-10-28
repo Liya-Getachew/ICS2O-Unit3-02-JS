@@ -18,7 +18,7 @@ if (navigator.serviceWorker) {
 /**
  * This function displays an alert.
  */
- function solveArea() {
+function solveArea() {
   //input
   const baseA = parseInt(document.getElementById("base-a").value)
   const baseB = parseInt(document.getElementById("base-b").value)
