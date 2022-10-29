@@ -56,15 +56,15 @@
         </div>
       </header>
       <main class="mdl-layout__content">
-        <p>Enter integers for dimensions here:</p>
+        <p>Enter dimensions here:</p>
         <div id="formula">
-          <p>Formula:</p>
+          <p id="special">Formula:</p>
           <p>V = (L x W x H) / 3</p>
-          <p>L = length, W = width, H = height</p>
+          <img src="./images/pyramid-area.svg" alt="area of pyramid">
         </div>
         <!-- Numeric Textfield -->
         <form action="#">
-          Length:
+          Length (L):
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
@@ -72,7 +72,7 @@
               step="any"
               pattern="-?[0-9]*(\.[0-9]+)?"
               id="length-of-pyramid"
-              placeholder="e.g. 3.2"
+              placeholder="insert value"
               aria-label="Length"
             />
             <span class="mdl-textfield__error">Input is not a number!</span>
@@ -81,7 +81,7 @@
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
-          Width:
+          Width (W):
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
@@ -89,7 +89,7 @@
               step="any"
               pattern="-?[0-9]*(\.[0-9]+)?"
               id="width-of-pyramid"
-              placeholder="e.g. 3.2"
+              placeholder="insert value"
               aria-label="Width"
             />
             <span class="mdl-textfield__error">Input is not a number!</span>
@@ -98,7 +98,7 @@
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
-          Height:
+          Height (H):
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
@@ -106,7 +106,7 @@
               step="any"
               pattern="-?[0-9]*(\.[0-9]+)?"
               id="height-of-pyramid"
-              placeholder="e.g. 3.2"
+              placeholder="insert value"
               aria-label="Height"
             />
             <span class="mdl-textfield__error">Input is not a number!</span>
@@ -115,13 +115,13 @@
         </form>
         <!-- Raised button with ripple -->
         <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
           onclick="solveVolume()"
         >
           calculate
         </button>
         <div id="answer">
-          <div id="volume">Volume =</div>
+          <div id="volume">Volume = </div>
         </div>
       </main>
     </div>
