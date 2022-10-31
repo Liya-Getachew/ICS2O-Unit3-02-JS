@@ -55,18 +55,6 @@
                 <mxCell id="20" value="Volume =" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="103" y="350" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="*output goes here*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#7602B0;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="155" y="350" width="111" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="22" value="*input here*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#7602B0;" vertex="1" parent="1">
-                    <mxGeometry x="140.5" y="176.5" width="99.5" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="23" value="*input here*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#7602B0;" vertex="1" parent="1">
-                    <mxGeometry x="140.5" y="217.75" width="89.5" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="24" value="*input here*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#7602B0;" vertex="1" parent="1">
-                    <mxGeometry x="140.5" y="255" width="89.5" height="30" as="geometry"/>
-                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
